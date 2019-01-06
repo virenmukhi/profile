@@ -63,6 +63,17 @@ table{
   box-shadow: 1px 2px 4px 1px rgba(0.4, 0.2, 0.2, 0.4);
 }
 
+.table {
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+    height: 50%;
+}
+
+.table-row {
+    margin-top: 10px;
+}
+
 .img-circle{
   border-radius: 50%;
 }
