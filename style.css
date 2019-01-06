@@ -67,6 +67,10 @@ table{
   border-radius: 50%;
 }
 
+.no-bullet {
+    list-style: none;
+}
+
 .sm-icon {
     font-size: 40px;
 }
