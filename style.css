@@ -29,11 +29,28 @@ h3{
 }
 
 a{
-  color: #ccc;
+  color: #aaa;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 
 a:hover{
+  color: #7FB3D5;
+  text-decoration: none;
+}
+
+th, td {
+  border-bottom: 1px solid #C6AFAA;
+}
+
+.link{
+  color: #a58e86;
+  text-decoration: none;
+    transition: all 0.18s ease;
+
+}
+
+.link:hover{
   color: #7FB3D5;
   text-decoration: none;
 }
@@ -63,14 +80,24 @@ table{
   box-shadow: 1px 2px 4px 1px rgba(0.4, 0.2, 0.2, 0.4);
 }
 
-.table {
-    table-layout: fixed;
+.table_projects {
     width: 100%;
     text-align: center;
     height: 50%;
 }
 
-.table-row {
+.table_projects td:nth-child(1) {
+  width: 25%;
+  font-weight: 500;
+}
+.table_projects td:nth-child(3) {
+  width: 25%;
+}
+.table_projects td:nth-child(2) {
+  width: 50%;
+}
+
+.table_projects-row {
     margin-top: 10px;
 }
 
