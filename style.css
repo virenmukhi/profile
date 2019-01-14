@@ -83,7 +83,7 @@ table{
 .table_projects {
     width: 100%;
     text-align: center;
-    height: 50%;
+    height: 380px;
 }
 
 .table_projects td:nth-child(1) {
