@@ -15,7 +15,7 @@ h1, h2, h3{
 
 h1{
   color: #34495E;
-  font-size: 22px;
+  font-size: 28px;
 }
 
 h2{
@@ -41,6 +41,10 @@ a:hover{
 
 th, td {
   border-bottom: 1px solid #C6AFAA;
+}
+
+li {
+  font-size: 14px;
 }
 
 .link{
@@ -83,7 +87,7 @@ table{
 .table_projects {
     width: 100%;
     text-align: center;
-    height: 380px;
+    height: 750px;
 }
 
 .table_projects td:nth-child(1) {
