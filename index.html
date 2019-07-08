@@ -1,59 +1,103 @@
 <html>
 <head>
   <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/animate.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="css/style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700" rel="stylesheet">
   <title>Viren Mukhi</title>
-
-
+  <meta name= "description" content="Full-stack Developer and business graduate based in Hong Kong."/>
+  <meta name= "author" content="Viren Mukhi"/>
+  <meta name="keywords" content="portfolio, software, engineer, showcase, viren, projects, mukhi, viren mukhi, full-stack, developer, UI/UX, website">
 </head>
 
 <body>
 
-  <div class="container">
-    <div class="card text-center">
-      <h1 style="padding-bottom: 10px;">Viren Mukhi</h1>
-      <img src="images/dp.jpg" id="img-profile" alt="Photo of Viren Mukhi" class="img-circle">
-
-      <h2>Profession: Full-stack Developer</h2>
-      <h3>Fun Facts:</h3>
-      <ul style="list-style: none;">
-      <ul class="no-bullet" style="width: 85%;">
-        <li>Born and raised in Hong Kong</li>
-        <li>Business graduate from the University of Exeter</li>
-        <li>Worked across a range of industries and currently seeking a full-time job as a developer</li>
-      </ul>
-    </div>
-
-
-    <div class="card text-center">
-      <div class="letter-spacing">
-        <a href="https://www.facebook.com/virenglu" target="blank"class="sm-icon">
+  <!-- navbar -->
+  <div id="one" style="display: flex; justify-content: center;">
+    <div class="navbar animated lightSpeedIn">
+      <!-- sm icons -->
+    <div style="position: absolute; align-self: center; top: 10%;">
+      <div class="icons">
+        <a href="https://www.facebook.com/virenglu" target="blank">
           <i class="fa fa-facebook"></i>
         </a>
         <a href="https://www.instagram.com/vurj" target="blank"
-        <i class="sm-icon">
+        <i>
           <i class="fa fa-instagram"></i>
         </a>
-        <a href="https://soundcloud.com/user-513900812" target="blank" class="sm-icon">
+        <a href="https://soundcloud.com/user-513900812" target="blank">
           <i class="fa fa-soundcloud"></i>
         </a>
-        <a href="https://www.linkedin.com/in/viren-mukhi" target="blank" class="sm-icon">
+        <a href="https://www.linkedin.com/in/viren-mukhi" target="blank">
           <i class="fa fa-linkedin"></i>
         </a>
-        <a href="https://www.github.com/virenmukhi" target="blank" class="sm-icon">
+        <a href="https://www.github.com/virenmukhi" target="blank">
           <i class="fa fa-github"></i>
         </a>
       </div>
     </div>
+    <!-- navigation -->
+        <div class="nav-links">
+          <a href="#one"><h3>ABOUT</h3></a>
+          <a href="#two"><h3>PROJECTS</h3></a>
+          <a href="#three"><h3>CONTACT</h3></a>
+        </div>
+    </div>
+  </div>
+
+<!-- flip card -->
+
+  <div class="container">
+    <div class="animated jackInTheBox">
+          <button onclick="flip()"></button>
+      <section class="card-container">
+        <div class="flipcard" onclick="flip()">
+          <div class="front">
+            <h1 style="padding-top: 20%">{VIREN MUKHI}</h1>
+            <h2>FULL-STACK DEVELOPER</h2>
+            <h4 style="padding-top: 10%;">{click for more}</h4>
+          </div>
+          <div class="back">
+            <img src="images/dp.jpg" id="img-profile" alt="Photo of Viren Mukhi" class="img-circle">
+
+            <h2 style="padding-bottom: 10px;">Viren Mukhi</h2>
+            <p class="about"> Hello, my name is Viren Mukhi, a developer based in Hong Kong. I have worked across a range of industries in the past and graduated from the University of Exeter with a bachelor's degree in business, but later on decided to make a transition into the field of technology. When I'm not busy programming, you could find me playing basketball, DJ-ing, at a hackathon or on some crazy adventure.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div style="display: flex; justify-content: center;">
+      <a href="#two" id="two" <i class="scroll-down">
+        <i class="fa fa-angle-double-down"></i>
+      </a>
+    </div>
 
 
-    <div></div>
+    </div>
+    <span class="contact2-form-title" style="padding-bottom: 10px; padding-top: 60px; color: white">What I've Built!</span>
 
-    <div class="card text-center">
+    <div class="mini-card">
 
-      <span class="contact2-form-title" style="padding-bottom: 10px">Projects</span>
+      <a class="box fade-in one" style="background: url('images/athletify.png'); background-size: contain;" href="https://elegant-stonebraker-6bfb70.netlify.com" target="blank">
+      <h5 class="box-heading">ATHLETIFY</h5>
+      <h6 class="box-description">Professional basketball development agency. I had developed the web application from scratch.</h6>
+      </a>
+
+      <a class="box fade-in two" style="background: url('images/citygemsmobile.png'); background-size: contain;" href="images/citygemsqr.png" target="blank">
+      <h5 class="box-heading">CITY GEMS</h5>
+      <h6 class="box-description">WeChat mini program that allows travellers to efficiently navigate their way and find the hottest spots around China.</h6>
+      </a>
+
+      <a class="box fade-in three" style="background: url('images/mr-cocktail2.png'); background-size: contain;" href="https://rails-mister-cocktail-viren.herokuapp.com/" target="blank">
+      <h5 class="box-heading">MISTER COCKTAIL</h5>
+      <h6 class="box-description">My first ever application using a RESTful API.</h6>
+      </a>
+    </div>
+
+      <!-- <span class="contact2-form-title" style="padding-bottom: 10px">Projects</span>
 
       <div></div>
 
@@ -79,7 +123,7 @@
         </tr>
         <tr>
           <td>City Gems MP</td>
-          <td>Recently released a WeChat mini program called City Gems that allows travellers to efficiently navigate their way around China. Although I created this app using WeChat developer tools, I used a rest API in rails to develop the backend of the program.</td>
+          <td>Released a WeChat mini program called City Gems that allows travellers to efficiently navigate their way and find the hottest spots around China. Although I created this app using WeChat developer tools, I used a rest API in rails to integrate the backend of the program, interfacing with an SQL database.</td>
           <td><img src="images/citygemsqr.png" id="img-profile-sport"></td>
         </tr>
         <tr>
@@ -89,8 +133,20 @@
         </table>
       </div>
 
+      <div style="display: flex; justify-content: center;">
+        <a href="#three" <i class="scroll-down" style="top: 190%;">
+          <i class="fa fa-angle-double-down"></i>
+        </a> -->
+
+            <div style="display: flex; justify-content: center;">
+        <a href="#three" <i class="scroll-down">
+          <i class="fa fa-angle-double-down"></i>
+        </a>
+      </div>
+
 <!-- Contact Form -->
-      <div class="card text-center">
+    <div class="container">
+      <div id="three" class="card text-center">
         <!-- <div class="wrap-contact2"> -->
           <form action="https://formspree.io/viren@mgglobe.com" method="POST" class="contact2-form validate-form">
             <span class="contact2-form-title">
@@ -122,12 +178,13 @@
             </div>
           </form>
           <p style="margin: 0;">Alternatively, feel free to contact
-          <a style="color: #7FB3D5;" href="mailto:viren@mgglobe.com">viren@mgglobe.com</a></p>
+          <a style="color: #7FB3D5;font-size: 15px; font-weight: 100; text-shadow: none;" href="mailto:viren@mgglobe.com">viren@mgglobe.com</a>.</p>
         </div>
       </div>
     </div>
+  </div>
 
-    <p style="text-align: center;">© 2019 Viren Mukhi. All Rights Reserved.</p>
+    <p style="text-align: center; margin-bottom: 0;">© 2019 Viren Mukhi. All Rights Reserved.</p>
 
     <!--===============================================================================================-->
   <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
