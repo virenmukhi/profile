@@ -10,7 +10,7 @@ body{
 }
 
 h1, h2, h3{
-  font-family: 'matchinger', sans-serif;
+  font-family: 'Matchinger', sans-serif;
 }
 
 h1{
@@ -262,19 +262,23 @@ table{
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('../fonts/poppins/Poppins-Regular.ttf');
+  src: url('css/fonts/poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
   font-family: Poppins-Medium;
-  src: url('../fonts/poppins/Poppins-Medium.ttf');
+  src: url('css/fonts/poppins/Poppins-Medium.ttf');
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('../fonts/poppins/Poppins-Bold.ttf');
+  src: url('css/fonts/poppins/Poppins-Bold.ttf');
 }
 
+@font-face {
+  font-family: Matchinger;
+  src: url('css/fonts/matchinger/Matchinger.otf');
+}
 
 
 
