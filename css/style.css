@@ -262,22 +262,22 @@ table{
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('css/fonts/poppins/Poppins-Regular.ttf');
+  src: url('fonts/poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
   font-family: Poppins-Medium;
-  src: url('css/fonts/poppins/Poppins-Medium.ttf');
+  src: url('fonts/poppins/Poppins-Medium.ttf');
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('css/fonts/poppins/Poppins-Bold.ttf');
+  src: url('fonts/poppins/Poppins-Bold.ttf');
 }
 
 @font-face {
   font-family: Matchinger;
-  src: url('css/fonts/matchinger/Matchinger.otf');
+  src: url('fonts/matchinger/Matchinger.otf');
 }
 
 
