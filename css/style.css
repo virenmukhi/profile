@@ -299,6 +299,11 @@ table{
     text-decoration: none;
   }
 
+@media (max-width: 576px) {
+  .scroll-down {
+    display: none;
+  }
+}
 
 
 /*Contact Form*/
